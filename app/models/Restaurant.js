@@ -6,6 +6,7 @@ const schemeComment = new mongoose.Schema({
   user: { type: String, required: true },
   text: { type: String, required: true },
   score: Number,
+// test
 });
 const schemeFood = new mongoose.Schema({
   name: { type: String, required: true },
