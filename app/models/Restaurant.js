@@ -15,6 +15,7 @@ const schemeFood = new mongoose.Schema({
   price: { type: Number, required: true },
   pic: String,
   comments: [schemeComment],
+
 });
 
 
